@@ -1,0 +1,40 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para el navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #ffffff;
+}
+
+.navbar-logo  {
+    width: 60px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+
+.right-side a {
+    color: #000000;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.right-side a:hover {
+    color: hsl(193, 100%, 47%); /* Color al pasar el cursor */
+}

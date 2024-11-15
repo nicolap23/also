@@ -1,0 +1,52 @@
+footer {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    margin: 10px;
+    min-width: 200px;
+    max-width: 250px;
+  }
+  
+  .footer-section h3 {
+    color: #1DA1F2; /* color inspirador de Twitter */
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section p,
+  .footer-section ul,
+  .footer-section a {
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+  }
+
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-section a:hover {
+    color: #1DA1F2;
+  }
+  
+  .footer-bottom {
+    font-size: 12px;
+    margin-top: 20px;
+  }

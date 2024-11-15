@@ -1,0 +1,47 @@
+
+
+
+
+.home {
+    background-image: url('../pagesImg/background-bike.jpg'); /* Coloca la URL de la imagen */
+    background-size: cover; /* Asegura que la imagen cubra todo el área del banner */
+    background-position: center; /* Centra la imagen en el banner */
+    height: 800px; /* Ajusta la altura del banner */
+    display: flex; /* Usamos Flexbox para alinear el contenido */
+    justify-content: flex-end; /* Centra el contenido en el eje horizontal */
+    align-items: center;
+    text-align: center; /* Centra el contenido en el eje vertical */
+    padding-right: 20px; /* Añade espacio entre el contenido y el borde derecho */
+}
+
+/* Estilo para el contenedor del texto y el botón */
+.header-container {
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en una columna */
+    align-items: center; /* Alinea el contenido hacia la derecha */
+    text-align: center; /* Alinea el texto a la derecha */
+    color: white;
+    margin-right: 30px;
+    padding-right: 50px; /* Color del texto */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra para mejorar la legibilidad del texto */
+}
+
+.header-container h1{
+    font-size: 38px;
+}
+
+/* Estilo para el botón */
+.cta-btn {
+    margin-top: 20px; /* Espacio entre el texto y el botón */
+    padding: 10px 20px; /* Tamaño del botón */
+    font-size: 1.2em; /* Tamaño de la fuente del botón */
+    background-color: #1DA1F2; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cursor en forma de mano al pasar sobre el botón */
+    border-radius: 5px; /* Bordes redondeados del botón */
+}
+
+.cta-btn:hover {
+    background-color: #e55c00; /* Color al pasar el mouse sobre el botón */
+}
